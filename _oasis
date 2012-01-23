@@ -1,0 +1,21 @@
+OASISFormat: 0.2
+Name:        biocaml-moods
+Version:     0.1
+Synopsis:    Bindings for the MOODS library
+Authors:     Philippe Veber
+License:     GPL-3.0
+Plugins:     DevFiles (0.2), META (0.2)
+
+BuildTools: ocamlbuild
+
+Library moods
+  Path: .
+  Modules: Moods
+  CSources: seq_buffer.h, pssm_algorithms.hpp, moods_stubs.h
+
+Document api
+  Title: API reference for OCaml MOODS
+  Type: ocamlbuild (0.2)
+  BuildTools: ocamldoc
+  XOcamlbuildPath: .
+  XOcamlBuildLibraries: moods

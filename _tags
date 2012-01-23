@@ -1,0 +1,5 @@
+# OASIS_START
+# DO NOT EDIT (digest: 05cb9a41125b87ad662c3ee0beb807d8)
+# Library moods
+<moods.{cma,cmxa}>: use_libmoods
+# OASIS_STOP

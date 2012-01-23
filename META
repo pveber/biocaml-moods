@@ -1,0 +1,9 @@
+# OASIS_START
+# DO NOT EDIT (digest: 276e3de3be74d8fe5249b1945810f795)
+version = "0.1"
+description = "Bindings for the MOODS library"
+archive(byte) = "moods.cma"
+archive(native) = "moods.cmxa"
+exists_if = "moods.cma"
+# OASIS_STOP
+
