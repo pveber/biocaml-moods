@@ -1,0 +1,2 @@
+This is an unfinished binding to the MOODS library. Actually only the compile infrastructure is done, 
+and this is the reason why I keep this repo: it provides an example on how to bind with c++ using oasis.
